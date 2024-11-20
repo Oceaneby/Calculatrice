@@ -1,0 +1,75 @@
+section{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+ 
+}
+
+.calculating{
+
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "effacer effacer effacer diviser"
+    "sept huit neuf multiple"
+    "quatre cinq six soustraction"
+    "un deux trois addition"
+    "zero zero egale egale";
+    gap : 10px;
+}
+
+.btn__0{
+    grid-area: zero;
+}
+.btn__1{
+ grid-area: un;
+}
+.btn__2{
+grid-area: deux;
+}
+.btn__3{
+    grid-area: trois;
+}
+.btn__4{
+    grid-area: quatre;
+}
+.btn__5{
+    grid-area: cinq;
+}
+.btn__6{
+    grid-area: six;
+}
+.btn__7{
+    grid-area: sept;
+}
+.btn__8{
+    grid-area: huit;
+}
+.btn__9{
+    grid-area: neuf;
+}
+.btn__egale{
+    grid-area: egale;
+}
+.btn__addition{
+    grid-area: addition;
+}
+.btn__soustraction{
+    grid-area: soustraction;
+}
+.btn__diviser{
+    grid-area: diviser;
+}
+.btn__multiple{
+    grid-area: multiple;
+}
+.btn__effacer{
+    grid-area: effacer;
+}

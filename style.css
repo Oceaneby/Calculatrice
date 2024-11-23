@@ -1,11 +1,12 @@
 section{
     border: 1px solid black;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 800px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    background-color: black;
 
  
 }
@@ -25,51 +26,171 @@ section{
     gap : 10px;
 }
 
+input{
+    margin-left: 10px;
+    height: 270px;
+    width: 95%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 80px;
+}
+
 .btn__0{
     grid-area: zero;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__1{
  grid-area: un;
+ background-color: rgb(74, 72, 72);
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ color: whitesmoke;
+ font-size: 20px;
+ border: none;
 }
 .btn__2{
 grid-area: deux;
+background-color: rgb(74, 72, 72);
+width: 80px;
+height: 80px;
+border-radius: 50%;
+color: whitesmoke;
+font-size: 20px;
+border: none;
 }
 .btn__3{
     grid-area: trois;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__4{
     grid-area: quatre;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__5{
     grid-area: cinq;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__6{
     grid-area: six;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__7{
     grid-area: sept;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__8{
     grid-area: huit;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__9{
     grid-area: neuf;
+    background-color: rgb(74, 72, 72);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__egale{
     grid-area: egale;
+    background-color: rgb(230, 100, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__addition{
     grid-area: addition;
+    background-color: rgb(230, 100, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
 }
 .btn__soustraction{
     grid-area: soustraction;
+    background-color: rgb(230, 100, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__diviser{
     grid-area: diviser;
+    background-color: rgb(230, 100, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__multiple{
     grid-area: multiple;
+    background-color: rgb(230, 100, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }
 .btn__effacer{
     grid-area: effacer;
+    background-color: rgb(230, 100, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
 }

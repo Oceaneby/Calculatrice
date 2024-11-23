@@ -9,6 +9,9 @@ for(let i = 0; i < button.length; i++){
     button[i].addEventListener('click', function(){
        let value = button[i].innerHTML;
 
+    //    console.log(button[i].innerHTML);
+       
+
        if(value === "="){
         input.value = (eval(calculEnCours));
  /* CalculeEnCours : Très perturbent car vide donc ne pas hésiter a rechcerhcer l'explication*/       
